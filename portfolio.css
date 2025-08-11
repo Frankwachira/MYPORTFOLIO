@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    background-color: #f9f9f9; /* Softer background color */
+    color: #333; /* Darker text color for better readability */
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(90deg, #34e4ed, #00c4d6); /* Gradient background */
+    color: white; /* Keep a clean color for text */
+    padding: 30px 0; /* Increased padding for a bolder look */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; /* Space below the nav */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* More space between nav items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Bold text for emphasis */
+    transition: color 0.3s; /* Transition effect for hover */
+}
+
+nav ul li a:hover {
+    color: #f7c931; /* Change color on hover */
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 30px; /* Increased padding */
+    margin: 20px auto; /* Center the sections */
+    max-width: 800px; /* Limit width for better reading */
+    background: white;
+    border-radius: 10px; /* Softer corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Increased shadow */
+}
+
+h2 {
+    color: #0be7bb; /* Maintain original color */
+    font-size: 2em; /* Larger header */
+    border-bottom: 2px solid #eaeaea; /* Bottom border for distinction */
+    padding-bottom: 10px; /* Space under header */
+}
+
+h3 {
+    margin-top: 25px;
+    color: #444; /* Slightly lighter than h2 */
+}
+
+p {
+    margin-bottom: 20px; /* More space below paragraphs */
+}
+
+/* List Styles */
+ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Clear bullet style */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 12px 18px; /* More button padding */
+    background: #28a745; /* Green background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease; /* Added transform transition */
+    font-weight: bold; /* Bold text for buttons */
+}
+
+.btn:hover {
+    background: #218838;
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3491f5; /* Keep color as is */
+    color: white;
+    font-size: 0.9em; /* Smaller text for footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* More height for visual balance */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center; /* Center align on mobile */
+    }
+    
+    section {
+        padding: 20px; /* Reduce padding on smaller screens */
+        margin: 10px; /* Less margin for mobile */
+    }
+}
+.social-link {
+  display: inline-block;
+  margin-top: 0px;
+}
+.btn {
+  font-size: 24px;
+  text-decoration: none;
+  color: #16cee6;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #bcc5c5;
+  transform: scale(1.2);
+}
