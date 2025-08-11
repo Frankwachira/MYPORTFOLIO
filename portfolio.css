@@ -59,7 +59,7 @@ h2 {
 
 h3 {
     margin-top: 25px;
-    color: #444; /* Slightly lighter than h2 */
+    color: #2906ec; /* Slightly lighter than h2 */
 }
 
 p {
@@ -93,7 +93,7 @@ ul {
 footer {
     text-align: center;
     padding: 20px;
-    background: #3491f5; /* Keep color as is */
+    background: #09f0f4; /* Keep color as is */
     color: white;
     font-size: 0.9em; /* Smaller text for footer */
     position: relative;
@@ -131,4 +131,18 @@ footer {
 .btn:hover {
   background-color: #bcc5c5;
   transform: scale(1.2);
+}
+h1, h2, h3 {
+  color: #269f9f;               
+  text-shadow: 0 0 10px #00ffff;
+}
+
+a {
+  color: #ffcc00;               /* Bright yellow links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffcc00;
 }
