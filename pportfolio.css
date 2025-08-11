@@ -1,0 +1,194 @@
+/* ===========================
+   General Styles
+=========================== */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  background-color: #f0f8f7;
+  color: #0a0a0a;
+}
+
+/* ===========================
+   Header Styles
+=========================== */
+header {
+  background: linear-gradient(90deg, #96f7f7, #0f0f0f81);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: #e76e0b;
+  font-size: 2em;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+/* ===========================
+   Navigation
+=========================== */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f7c931;
+  text-decoration: underline;
+}
+
+/* ===========================
+   Section Styles
+=========================== */
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+h1{
+color: #e76e0b;
+  font-size: 2em;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
+h2 {
+  color: #e76e0b;
+  font-size: 2em;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+h3 {
+ color: #e76e0b;
+  font-size: 2em;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
+h4 {
+color: #e76e0b;
+  font-size: 2em;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
+p {
+  margin-bottom: 20px;
+}
+
+/* ===========================
+   Card Sections
+=========================== */
+.card {
+  background-color: #fcf8f8;
+  border: 2px solid #030303;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+/* ===========================
+   Social Buttons
+=========================== */
+.social-btn {
+  display: inline-block;
+  font-size: 24px;
+  color: #16cee6;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.social-btn:hover {
+  background-color: #bcc5c5;
+  transform: scale(1.2);
+}
+
+/* ===========================
+   Footer Styles
+=========================== */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #0e06007f;
+  color: white;
+  font-size: 0.9em;
+  width: 100%;
+  height: 40px;
+}
+
+/* ===========================
+   Link Styles
+=========================== */
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffcc00;
+}
+
+/* ===========================
+   Responsive Styles
+=========================== */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  section {
+    padding: 20px;
+    margin: 10px;
+  }
+}
